@@ -66,7 +66,7 @@ int main(int, char**)
 	    r.y = 300;
 	    r.w = 200;
 	    r.h = 200;
-	   // SDL_RenderFillRect(ren.get(), &r );
+	   
 	    SDL_RenderDrawRect(ren.get(), &r);
 
 	    SDL_Rect r2;
@@ -96,9 +96,6 @@ int main(int, char**)
 	    SDL_RenderDrawLine(ren.get(), 520, 210, 520, 269);
 
 
-	    //
-
-	    void drawCir(int x1, int y1, int x2, int y2) {
 
 	    }
 
